@@ -53,6 +53,7 @@ namespace GitTest
             this.button1.TabIndex = 1;
             this.button1.Text = "Version";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // label2
             // 
@@ -62,7 +63,7 @@ namespace GitTest
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(89, 20);
             this.label2.TabIndex = 2;
-            this.label2.Text = "Version 2.0";
+            this.label2.Text = "Version 2.1";
             // 
             // Form1
             // 
